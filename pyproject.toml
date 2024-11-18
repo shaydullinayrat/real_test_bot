@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test_bot"
+version = "0.1.0"
+description = ""
+authors = ["mac <shaydullinayrat@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = '4.2.2'
+django-grappelli='3.0.6'
+environs = '9.5.0'
+gunicorn = '20.1.0'
+pyTelegramBotApi = '4.10.0'
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
